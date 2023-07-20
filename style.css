@@ -3,7 +3,6 @@
   padding: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
-
 .side-nav {
   width: 50px;
   min-height: 400px;
@@ -27,7 +26,6 @@
   flex-direction: column;
   padding-top: 10px;
 }
-
 .sideNav1 img {
   width: 20px;
   height: 20px;
@@ -36,7 +34,6 @@
   /* margin-top: 15px !important; */
   margin: auto;
 }
-
 .sideNav2 {
   /* height: 70%; */
   flex: 1;
@@ -44,7 +41,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .active {
   background-color: #aeb400;
   border-radius: 8px;
@@ -52,7 +48,6 @@
   filter: invert(100%);
   padding: 7px;
 }
-
 .sideNav2 img {
   width: 20px;
   height: 20px;
@@ -61,7 +56,6 @@
   gap: 15px;
   margin: 5px auto;
 }
-
 .sideNav3 {
   height: 15%;
   min-height: 100px;
@@ -69,7 +63,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .sideNav3 img {
   width: 20px;
   height: 20px;
@@ -77,7 +70,6 @@
   gap: 15px;
   margin: 5px auto;
 }
-
 .panel-wrapper {
   width: calc(100vw - 50px);
   height: 100vh;
@@ -92,7 +84,6 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
 .first-panel {
   width: 27%;
   height: 100%;
@@ -101,14 +92,13 @@
 .second-panel {
   width: 46%;
   height: 100%;
-  background-color: #aeb400;
+  /* background-color: #aeb400; */
 }
 .third-panel {
   width: 27%;
   height: 100%;
   /* background-color: rgb(245, 245, 245); */
 }
-
 .panel1-1 {
   display: flex;
   gap: 10px;
@@ -124,7 +114,6 @@
   border-radius: 100%;
   margin: 5px;
 }
-
 .panel1-1-name h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
   font-weight: 500;
@@ -132,7 +121,6 @@
 .panel1-1-name span {
   color: grey;
 }
-
 .panel1-2 {
   width: calc(100% - 40px);
   padding: 20px 20px;
@@ -140,16 +128,13 @@
 .panel1-2 span {
   font-weight: 600;
 }
-
 .panel1-2-1 {
   margin-top: 20px;
 }
-
 .panel1-2-1 span {
   color: grey;
   font-size: smaller;
 }
-
 .panel1-2-2-1 h1 {
   font-size: 18px;
   margin-top: 20px;
@@ -166,7 +151,6 @@
   color: grey;
   font-size: smaller;
 }
-
 .button {
   width: fit-content;
   padding: 15px 20px;
@@ -176,17 +160,14 @@
   color: white;
   text-align: center;
 }
-
 .panel1-3 {
   width: calc(100% - 40px);
   padding: 20px 20px;
 }
-
 .panel1-3 div {
   font-weight: 600;
   margin-bottom: 5px;
 }
-
 .transactions {
   border-bottom: 2px solid gray;
   padding: 20px 0;
@@ -194,14 +175,11 @@
   width: fit-content;
   margin-bottom: 0;
 }
-
 .transactions span {
   color: gray;
 }
-
 .transactions div {
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 12px;
-  
 }
