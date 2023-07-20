@@ -80,7 +80,7 @@
 .panel-wrapper::-webkit-scrollbar {
   display: none;
 }
-.panel-wrapper{
+.panel-wrapper {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -182,4 +182,84 @@
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 12px;
+}
+.panel2-1 {
+  width: calc(100%-40px);
+  padding: 25px 20px;
+}
+.panel2-1-1 span {
+  color: #514bff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.panel2-1-1 h1 {
+  font-size: 24px;
+}
+.panel2-1-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.segment {
+  width: 30%;
+  border-bottom: 2px solid #514bff;
+  padding: 10px 0;
+}
+.segment span {
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+.panel2-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.panel-heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+canvas {
+  margin: auto;
+  width: 90% !important;
+  height: auto !important;
+}
+.panel2-3{
+    margin-top: 20px;
+}
+.head {
+  width: 100%;
+}
+.head h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+.head span{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    padding: 5px 20px;
+}
+.panel2-3-2{
+    padding: 25px 20px;
+}
+.left{
+    width: 40%;
+}
+.left-1{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    display: flex;
+    padding: 5px 0;
+}
+.left-1 span{
+    font-size: 14px;
+    color: gray;
+    padding: 0px 8px;
 }

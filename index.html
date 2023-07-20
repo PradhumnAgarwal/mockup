@@ -74,14 +74,100 @@
                         <span>2020-08-07</span>
                         <div>Withdrwal Transfer to Bank-XXX11</div>
                     </div>
-                    
+
                 </div>
             </div>
-            <div class="second-panel"></div>
+            <div class="second-panel">
+                <div class="panel2-1">
+                    <div class="panel2-1-1">
+                        <span>Retiremnet Income</span>
+                        <h1>Starting Year 2056</h1>
+                    </div>
+                    <div class="panel2-1-2">
+                        <div class="segment">
+                            <h2>$300,000</h2>
+                            <span>My Goal</span>
+                        </div>
+                        <div class="segment">
+                            <h2>59%</h2>
+                            <span>Goal Achieved</span>
+                        </div>
+                        <div class="segment">
+                            <h2>$300</h2>
+                            <span>Est. Monthly Income</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel2-2">
+                    <span class="panel-heading">Contribution Overtime</span>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="panel2-3">
+                    <div class="head">
+                        <h2>How do I compare to my peer?</h2>
+                        <span>These numbers represent current goal achievement</span>
+                    </div>
+                    <div class="panel2-3-2">
+                        <div class="left">
+                            <div class="left-1">
+                                Age:
+                                <span>Under 30</span>
+                            </div>
+                            <div class="left-1">
+                                Salary:
+                                <span>K20-K30</span>
+                            </div>
+                            <div class="left-1">
+                                Gender:
+                                <span>Male</span>
+                            </div>
+                        </div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+            </div>
             <div class="third-panel"></div>
         </div>
         <div class="bottom-nav"></div>
     </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        // type: 'bar',
+        data: {
+            labels: ['20', '25', '30', '35', '40', '45', '50'],
+            datasets: [{
+                type: 'bar',
+                label: 'Employee K73,500',
+                data: [10, 9, 2, 5, 6, 3, 8],
+                backgroundColor: '#514bff',
+                // borderWidth: 1
+            }, {
+                type: 'bar',
+                label: 'Employee K52,500',
+                data: [3, 8, 7, 4, 6, 3, 2],
+                backgroundColor: '#6b67dd',
+                // borderWidth: 1
+            }, {
+                type: 'bar',
+                label: 'Employee K244,313',
+                data: [7, 3, 5, 8, 2, 1, 6],
+                backgroundColor: '#adabe7',
+                // borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
 
 </html>
