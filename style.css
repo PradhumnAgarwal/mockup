@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Noto Sans JP", sans-serif;
 }
+#volume-booster-visusalizer{
+    display: none !important;
+}
 .side-nav {
   width: 50px;
   min-height: 400px;
