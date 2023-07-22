@@ -250,6 +250,8 @@ canvas {
 }
 .panel2-3-2{
     padding: 25px 20px;
+    display: flex;
+    align-items: center;
 }
 .left{
     width: 40%;
@@ -265,4 +267,61 @@ canvas {
     font-size: 14px;
     color: gray;
     padding: 0px 8px;
+}
+.right{
+  /* background-color: aquamarine; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.progress-wrapper{
+  width: 30% ;
+  aspect-ratio: 1/1;
+  padding: 0;
+  margin: 0;
+}
+.progress-bar-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#04ac74 78%, #a1fadd 0);    
+}
+.progress-bar-1::before {
+  content: "78%";
+}
+.progress-bar-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#04ac74 95%, #a1fadd 0);    
+}
+.progress-bar-2::before {
+  content: "95%";
+}
+.progress-bar-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#04ac74 59%, #a1fadd 0);    
+}
+.progress-bar-3::before {
+  content: "59%";
 }
